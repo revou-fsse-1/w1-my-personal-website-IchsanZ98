@@ -6,6 +6,7 @@ This is the simple personal website of **Ichsan Zulfikar** made using HTML, CSS,
 
 ## Links/URLs:
 
+- url: <https://ichsanz98.netlify.app/>
 - Inspiration: <https://revou-personal-website.netlify.app>
 
 ## Screenshots
