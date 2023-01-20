@@ -14,58 +14,6 @@ body {
   background-size: cover;
 }
 
-header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.cover {
-  width: 1200px;
-  margin: auto;
-  position: relative;
-}
-
-.logo a {
-  font-size: 50px;
-  font-weight: 800;
-  float: left;
-  font-family: "Times New Roman", Times, serif;
-  color: #364f6b;
-}
-
-.menu {
-  float: right;
-}
-
-button {
-  background: #3f72af;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-button:hover {
-  background: #fc5185;
-  text-decoration: none;
-}
-
-.cat {
-  border-radius: 50%;
-}
-
-.pic {
-  border-radius: 30%;
-}
-
-.exp {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  font-weight: 800;
-}
-
 nav {
   width: 100%;
   margin: auto;
@@ -102,18 +50,85 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.cover {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 70px;
+  font-weight: 800;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  color: #364f6b;
+}
+
+.menu {
+  float: right;
+  font-size: 18px;
+}
+
+button {
+  background: #3f72af;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
+
 section {
   margin: auto;
   display: flex;
   margin-bottom: 50px;
 }
 
-.kolom {
+.explanation {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.cat-jpg {
+  border-radius: 50%;
+}
+
+a.pink {
+  background: #fc5185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.pink:hover {
+  background: #3f72af;
+  text-decoration: none;
+}
+
+.pic {
+  border-radius: 30%;
+}
+
+.column {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.kolom .deskripsi {
+span {
+  color: blue;
+}
+
+.column .description {
   font-size: 20px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
@@ -130,27 +145,12 @@ h2 {
   line-height: 50px;
 }
 
-a.tbl-pink {
-  background: #fc5185;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-a.tbl-pink:hover {
-  background: #3f72af;
-  text-decoration: none;
-}
-
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
 }
 
-.tengah {
+.middle {
   text-align: center;
   width: 100%;
 }
@@ -162,17 +162,17 @@ p {
   flex-wrap: wrap;
 }
 
-.kartu-tutor {
+.card-tutor {
   width: 20%;
   margin: 0 auto;
 }
 
-.kartu-tutor img {
+.card-tutor img {
   width: 80%;
   border-radius: 50%;
 }
 
-.kartu-tutor p {
+.card-tutor p {
   font-family: "cooper black";
   font-weight: 800;
   font-size: 25px;
@@ -191,17 +191,17 @@ p {
   padding: 25px;
 }
 
-.kartu-team {
+.card-team {
   width: 20%;
   margin: 0 auto;
 }
 
-.kartu-team img {
+.card-team img {
   width: 150px;
   border-radius: 50%;
 }
 
-.kartu-team p {
+.card-team p {
   font-family: "cooper black";
   font-weight: 800;
   font-size: 25px;
@@ -281,11 +281,11 @@ h3 {
     height: auto;
   }
 
-  .kartu-tutor {
+  .card-tutor {
     width: 50%;
   }
 
-  .kartu-team {
+  .card-team {
     width: 50%;
   }
 }
